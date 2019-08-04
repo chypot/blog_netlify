@@ -11,11 +11,13 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
+- recent_posts
+- rakuten
 - category
 - tag
-- tagcloud
 - archive
-- recent_posts
+- tagcloud
+- rakuten_side_bottom
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
