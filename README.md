@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/64d764d3-ce7d-4d50-a9cf-80bb61aa4c0a/deploy-status)](https://app.netlify.com/sites/chypot/deploys)
+
 hexo + netlyfi でブログ
 
 - ソースコード管理: https://github.com/chypot/blog_netlify
