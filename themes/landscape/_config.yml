@@ -31,7 +31,7 @@ show_count: false
 
 # Miscellaneous
 google_analytics:
-gauges_analytics:
+gauges_analytics: '5dbe2dbd5cd7d2723ed1229f'
 favicon: /favicon.png
 twitter: '@ContinuumHypot'
 google_plus:
