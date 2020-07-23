@@ -1,0 +1,60 @@
+---
+title: Emacs使いがMacを買って最初にやること
+date: 2020-07-23 14:57:45
+tags:
+- mac
+- emacs
+- バックスラッシュ
+- ターミナル
+---
+
+ボーナスが出たので Macbook Pro を特盛りで買いました。
+
+- Macbook Pro 2020モデル
+- MacOS Catalina version 10.15.5
+
+Emacsの最初にやる設定をまとめました。
+
+## Emacsのインストール
+
+```console
+brew cask install emacs
+```
+
+## Documentsなど規定のディレクトリにアクセスできるようにする
+
+新しい MacOSの問題でEmacsから Documentsなど主要のディレクトリが見えなくなってしまうという問題があります。
+これは「システム環境設定」で「セキュリティとプライバシー」の「プライバシー」の項目で「/usr/bin/ruby」にフルディスクアクセスの権限を与えることで解決できます。
+
+参考: https://qiita.com/YAMADA_Masahiro/items/222c13e11dbd1679e298
+
+## Backslash
+
+バックスラッシュキーで円記号「¥」が入力されてしまう問題があります。「システム環境設定」で「キーボード」の「入力ソース」からチェックを設定します。
+
+![mac key backslash](/images/mac_key_backslash.png)
+
+## optionキーをMetaキーにする
+
+ターミナルで `emacs -nw` したときに optionキーがmetaキーにならなくて困ります。ターミナルの環境設定から「キーボード」のところに設定項目があります。
+
+![mac key backslash](/images/mac_meta_key_option.png)
+
+## `init.el` の設定
+
+`~/.emacs.d/init.el`
+
+```elisp
+; ツールバー、メニューバー、スクロールをなくす
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(scroll-bar-mode -1)
+; 行番号に加えて列番号も表示する
+(column-number-mode t)
+; 行末の空白を自動削除
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+; パッケージ
+(add-to-list
+ 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+```
