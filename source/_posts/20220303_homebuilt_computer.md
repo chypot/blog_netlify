@@ -35,8 +35,6 @@ M.2 SSD が3枚、SATA接続のストレージが6つ取り付けることがで
 
 袋からマザーボードを取り出し、箱の上に袋を敷いてその上で作業を始めます。取扱説明書は今は付属していないようなので、[公式サイトからPDFを参照します](https://download.msi.com/archive/mnu_exe/mb/MAGB660TOMAHAWKWIFI.pdf)。
 
-![マザーボードの図](images/MsiMagTomahawkB660_DDR5.png)
-
 ![マザーボードの図](/images/MsiMagTomahawkB660_DDR5.png)
 
 
