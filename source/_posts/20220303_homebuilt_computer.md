@@ -35,7 +35,10 @@ M.2 SSD が3枚、SATA接続のストレージが6つ取り付けることがで
 
 袋からマザーボードを取り出し、箱の上に袋を敷いてその上で作業を始めます。取扱説明書は今は付属していないようなので、[公式サイトからPDFを参照します](https://download.msi.com/archive/mnu_exe/mb/MAGB660TOMAHAWKWIFI.pdf)。
 
-![マザーボードの図](MsiMagTomahawkB660_DDR5.png)
+![マザーボードの図](images/MsiMagTomahawkB660_DDR5.png)
+
+![マザーボードの図](/images/MsiMagTomahawkB660_DDR5.png)
+
 
 ### CPUを取り付ける
 
@@ -52,9 +55,9 @@ M.2 SSD が3枚、SATA接続のストレージが6つ取り付けることがで
 
 ### メモリ
 
-メモリを2枚だけ指す時はBチャネルの `DIMMB1` `DIMMB2` に指すのが一番いいらしいのでマニュアルを見つつそうしました。
-
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=renzoku-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B09KCLP63B&linkId=6b21f20e66e190de83ca00c175966dc0"></iframe>
+
+メモリを2枚だけ指す時はBチャネルの `DIMMB1` `DIMMB2` に指すのが一番いいらしいのでマニュアルを見つつそうしました。
 
 ### M.2 SSD
 
